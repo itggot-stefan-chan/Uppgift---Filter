@@ -53,19 +53,25 @@ Unika: `unique`
 
 #### Ruby ####
 
-    filter(array: ['bosse', 'daniel', 'edvard', 'bosse', 'bosse'], value: 'bosse') #=> ['bosse', 'bosse', 'bosse']
+    filter(array: ['bosse', 'daniel', 'edvard', 'bosse', 'bosse'], value: 'bosse')
+    #=> ['bosse', 'bosse', 'bosse']
 
-    exclude(array: ['bosse', 'daniel', 'edvard', 'bosse', 'bosse'], value: 'bosse') #=> ['daniel', 'edvard']
+    exclude(array: ['bosse', 'daniel', 'edvard', 'bosse', 'bosse'], value: 'bosse')
+    #=> ['daniel', 'edvard']
 
-    unique(array: ['bosse', 'daniel', 'edvard', 'bosse', 'bosse'], 'bosse') #=> ['bosse', 'daniel', 'edvard']
+    unique(array: ['bosse', 'daniel', 'edvard', 'bosse', 'bosse'], 'bosse')
+    #=> ['bosse', 'daniel', 'edvard']
 
 ### Python ####
 
-    filter(array: ["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse") >>> ["bosse", "bosse", "bosse"]
+    filter(array: ["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse")
+    >>> ["bosse", "bosse", "bosse"]
 
-    exclude(array: ["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse") >>> [daniel", "edvard"]
+    exclude(array: ["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse")
+    >>> [daniel", "edvard"]
 
-    unique(array: ["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse") >>> ["bosse","daniel", "edvard"]
+    unique(array: ["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse")
+    >>> ["bosse","daniel", "edvard"]
 
 ## Genomförande ##
 
