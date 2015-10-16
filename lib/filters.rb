@@ -21,7 +21,6 @@ def exclude(array:, value:)
 end
 
 def unique(array:)
-
+  return [] if array.empty?
+  return array.uniq
 end
-
-p exclude(array:['kult', 'jut'], value:'jut')
